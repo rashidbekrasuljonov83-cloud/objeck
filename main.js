@@ -138,11 +138,21 @@
 // 54.Funksiya string qabul qiladi. Agar ushbu stringning uzunligi.
 // juft bo’lsa funksiya true qaytarsin, aks holda false
 
-function funksiya(string) {
-  if (string.length % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
-console.log(funksiya("rashidbek"));
+// function funksiya(string) {
+//   if (string.length % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(funksiya("rashidbek"));
+
+//<==============================================================================
+
+// 55.Funksiya 2ta argument qabul qiladi. Ikkala argument ham
+// son, funksiya 1-sonni 2-songa darajaga ko’tarilgan qiymatni
+// qaytarsin.
+// function a(son1, son2) {
+//   return son1 ** son2;
+// }
+// console.log(a(10, 10));
